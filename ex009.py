@@ -1,7 +1,10 @@
-# Exercício Python 8: Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
-# Exemplo: 1m = 100cm = 1000mm
+# Exercício Python 9: Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
 
-# Entrada de dados
-metros = float(input('Digite um valor em metros: '))
+n = int(input('Digite um número: '))
 
-print(f'{metros}m = {metros * 100}cm = {metros * 1000}mm')
+print(f'A tabuada de {n} é:')
+
+for i in range(1, 11):
+    print(f'{n} x {i:2} = {n * i:2}')
+
+print('Fim da tabuada')
