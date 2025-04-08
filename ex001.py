@@ -1,7 +1,8 @@
 # Crie um programa que imprima "Olá Mundo!" na tela.
+import emoji
 
 print('*' * 30)
-print('Olá Mundo!')
+print(emoji.emojize('Olá Mundo! :globe_showing_Americas:'))
 print('*' * 30)
 
 print('{:-^30}'.format('Olá Mundo!'))  # Centralizado
